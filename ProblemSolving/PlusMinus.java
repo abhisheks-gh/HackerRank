@@ -51,24 +51,3 @@ public class PlusMinus {
         bufferedReader.close();
     }
 }
-
-
-
-
-
-// int negatives = 0, zeros = 0, positives = 0 ;
-//         double ratioOfNegatives, ratioOfZeros, ratioOfPositives;
-//         for (int i = 0; i < arr.size(); i++) {
-//             if (arr.get(i) < 0) negatives++;
-//             if (arr.get(i) == 0) zeros++;
-//             if (arr.get(i) > 0) positives++;
-//         }
-//         ratioOfNegatives = negatives / arr.size();
-//         ratioOfZeros = zeros / arr.size();
-//         ratioOfPositives = positives / arr.size();
-//         List<Double> result = new ArrayList<Double>();
-//         result.add(ratioOfPositives); result.add(ratioOfNegatives); 
-//         result.add(ratioOfZeros);
-//         for (int i = 0; i < arr.size(); i++) {
-//             System.out.println(String.format("%6f", result.get(i)));
-//         }
